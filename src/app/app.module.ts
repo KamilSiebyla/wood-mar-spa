@@ -6,10 +6,16 @@ import {MatGridListModule} from '@angular/material/grid-list';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { 
+  GridComponent, 
+  TabGroupComponent 
+} from 'src/components';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GridComponent,
+    TabGroupComponent
   ],
   imports: [
     BrowserModule,
