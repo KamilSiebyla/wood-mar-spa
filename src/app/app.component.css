@@ -5,12 +5,3 @@
 .app-container {
     width: 100%;
 }
-
-.m20 {
-    margin: 20px;
-}
-
-/* footer should be separate component */
-.footer {
-    background-color: darkgrey;
-}

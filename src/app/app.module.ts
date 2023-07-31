@@ -5,6 +5,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -12,8 +13,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { 
   GridComponent, 
   TabGroupComponent,
+  ShadedBarComponent,
+  InformativeCardComponent,
+  FooterComponent,
   NavBarComponent,
-  InformativeCardComponent
+  InformativeBannerComponent
 } from 'src/components';
 
 @NgModule({
@@ -21,8 +25,11 @@ import {
     AppComponent,
     GridComponent,
     TabGroupComponent,
+    ShadedBarComponent,
+    InformativeCardComponent,
+    FooterComponent,
     NavBarComponent,
-    InformativeCardComponent
+    InformativeBannerComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +37,8 @@ import {
     MatTabsModule,
     MatGridListModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
